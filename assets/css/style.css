@@ -1,8 +1,8 @@
 body{
-	background: url("../imgs/isle.png");
+	background: url('../imgs/bg.jpg');
 	background-size: 100%;
     background-repeat: no-repeat;
-    color: green;
+    color: royalblue;
 }
 * {
 	box-sizing: border-box;
@@ -13,7 +13,7 @@ img {
 }
 .btn {
     margin: 3px;
-    background-color: green;
+    background-color: midnightblue;
     border-color: #fff;
 }
 .gifDiv{
@@ -21,17 +21,16 @@ img {
     margin: 3px;
 }
 .container {
-	background-color: white;
+	background-color: inherit;
 	opacity: 1.0;
 	padding: 20px;
 }
 .jumbotron {
     background-color: inherit;
+    margin-left:42%;
+
 }
-.jumbotron .h1, .jumbotron h1 {
-    text-align: center;
-    padding-top: 8px;
-}
+
 #copyright{
 	font-size: 14px;
 }
